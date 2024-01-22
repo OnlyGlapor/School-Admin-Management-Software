@@ -1,0 +1,366 @@
+.container {
+	padding: 5px 10px;
+}
+
+.tab_container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 70%;
+}
+
+.tab_container ul {
+	display: flex;
+	align-items: center;
+}
+
+.tab_container ul li {
+	list-style: none;
+	margin-left: 10px;
+	background-color: #fff;
+	padding: 3px 10px;
+	border-radius: 10px;
+	font-size: 14px;
+	color: #333;
+	cursor: pointer;
+}
+
+.tab_container ul li:hover {
+	background-color: #333;
+	color: #fff;
+    transition: background-color 0.50s ease, padding 0.50s ease;
+}
+
+.tab_container ul .active {
+	background-color: #333;
+	color: #fff;
+}
+
+.edit_button {
+	background-color: fff;
+	padding: 5px;
+	border-radius: 5px;
+	display: flex;
+	cursor: pointer;
+}
+
+.edit_button p {
+	font-size: 13px;
+	font-weight: 500;
+	margin-right: 2px;
+}
+
+.edit_button:hover {
+	text-decoration: underline;
+}
+
+.body {
+	padding: 5px 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.main {
+	width: 70%;
+}
+
+.main #header_title {
+	font-size: 15px;
+	font-weight: 500;
+	margin: 10px 10px;
+}
+
+.top_section {
+	display: flex;
+	align-items: center !important;
+	justify-content: space-between;
+}
+
+.top_item {
+	background-color: #fff;
+	border-radius: 10px;
+	border: 1px solid #eee;
+	margin-left: 10px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.top_item p {
+	font-size: 14px;
+}
+
+.top_item .trend {
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+.top_section .top_item .top_icon {
+	border: 1px solid #eee;
+	border-radius: 20px;
+	display: flex;
+	padding: 5px;
+	font-size: 20px;
+}
+
+.top_section .top_item .top_text_container {
+	margin-left: 15px;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.top_section .top_item .top_text_container #numbers {
+	font-size: 13px;
+	font-weight: 600;
+	margin-top: 10px;
+}
+
+.middle_section {
+	padding: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.middle_section .teacher_activities_chart {
+	width: 50%;
+	height: 300px;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 20px;
+	border: 1px solid #eee;
+}
+
+.middle_section .teacher_activities_chart p {
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.middle_section .teacher_activities_chart .activity_main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 80%;
+}
+
+.middle_section .teacher_activities_chart .progressBar_container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 500px;
+	height: 250px;
+}
+
+.middle_section .teacher_activities_chart .progressBar_container p {
+	font-size: 14px;
+}
+
+.middle_section .teacher_list {
+	width: 35%;
+	height: 300px;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 20px;
+	margin-left: 10px;
+	border: 1px solid #eee;
+}
+
+.middle_section .teacher_list #title {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.middle_section .teacher_list .list_container {
+	margin-top: 10px;
+	height: 270px;
+	overflow: auto;
+}
+
+.middle_section .teacher_list .list_container ul li {
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	justify-content: space-between;
+	border-top:1px solid #eee;
+	margin-top: 5px;
+	cursor: pointer;
+	padding: 0px 10px ;
+}
+
+.middle_section .teacher_list .list_container ul li:hover {
+	background-color: #eee;
+}
+.middle_section .teacher_list .list_container ul li .name {
+	font-weight: 500;
+}
+
+.middle_section .teacher_list .list_container ul li .subject {
+	font-size: 13px;
+}
+.school_daily_container {
+	margin-top: 5px;
+}
+.school_daily_container p, ul li {
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+.school_daily_container div {
+	margin-top: 10px;
+}
+
+.sideBar {
+	background-color: #fff;
+	width: 25%;
+	font-size: 15px;
+	padding: 5px;
+	border: 1px solid #eee;
+	border-radius: 10px;
+	margin-top: -30px;
+	position: sticky;
+	top: 0%;
+	height: 550px;
+}
+
+.sideBar .horizontalLine {
+/*	width: 100px;*/
+	height: 200px;
+	border: 1px solid #000;
+	position: absolute;
+	top: 0%;
+	left: 3.6%;
+	z-index: 0 !important;
+}
+
+.sideBar .current_active_class {
+	padding: 5px;
+	background-color: #fff;
+	border-radius: 10px;
+	height: 300px;
+	overflow: auto;
+	margin-top: 20px;
+}
+
+.sideBar .current_active_class #title {
+	font-size: 13px;
+	font-weight: 600;
+	position: sticky;
+	top: 0%;
+}
+
+.sideBar .current_active_class .monitorItem {
+	display: flex;
+	align-items: flex-start;
+	background-color: transparent;
+	border-radius: 5px;
+	margin-top: 10px;
+	padding: 5px;
+	border-top: 1px solid #eee;
+}
+
+.sideBar .current_active_class .monitorItem .dot_container {
+	border: 1px solid #000;
+	border-radius: 20px;
+	margin-right: 5px;
+	width: 10px;
+	height: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.dot_container .icon {
+	
+}
+
+.sideBar .current_active_class .monitorItem p {
+	font-size: 13px;
+}
+
+#time_left {
+	font-size: 13px;
+	font-weight: 500;
+}
+
+.curriculum_container {
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 15px;
+}
+
+.curriculum_container #title {
+	font-weight: 600;
+	font-size: 13px;
+}
+
+.curriculum_container .curriculum_item {
+	background-color: #fff;
+	border-radius: 10px;
+	font-size: 13px;
+	padding: 10px;
+}
+
+.curriculum_container .curriculum_item .view_button {
+	background-color: #eee;
+	border-radius: 10px;
+	font-size: 14px;
+	padding: 5px;
+	margin-top: 10px;
+	color: #fff;
+}
+
+.payroll_container {
+/*	background-color: lightgreen;*/
+}
+
+.employees_list {
+	padding: 20px;
+	background-color: #fff;
+/*	border-radius: 10px;*/
+	margin-top: 10px;
+	height: 440px;
+	width: 800px;
+	overflow: auto;
+}
+
+.employees_list table .photo {
+	width: 32px;
+	height: 32px;
+	border-radius: 50px;
+	background-color: #eee;
+}
+
+.gradeSheet .gradeTable {
+	margin-top: 20px;
+	width: 1200px;
+}
+
+.gradeSheet h2 {
+	font-size: 14px;
+}
+
+.gradeSheet .top {
+	display: flex;
+	justify-content: space-between;
+}
+
+.gradeSheet .top .right {
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+}
+
+.gradeSheet .top .right .right_item {
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	padding: 0px 10px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.gradeSheet .top .right .icon {
+	margin-left: 10px;
+}
+
+.gradeSheet .top .right .right_item:hover {
+	background-color: #eee;
+}

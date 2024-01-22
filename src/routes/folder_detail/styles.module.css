@@ -1,0 +1,260 @@
+.container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.main {
+	width: 70%;
+	padding: 20px;
+	overflow: auto;
+}
+
+.main h2 {
+	margin-bottom: 20px;
+}
+
+.top_section {
+  display: flex;
+  align-items: center !important;
+  justify-content: space-between;
+}
+
+.top_section .left {
+	display: flex;
+	align-items: center;
+}
+
+.left .back_button {
+	display: flex;
+	align-items: center;
+}
+
+.left_item {
+	margin-left: 10px;
+	font-size: 15px;
+	padding: 0px 5px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.left_item:hover {
+	background-color: #eee;
+}
+
+.top_section .top_item {
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	border-radius: 10px;
+	border: 1px solid #ddd;
+	margin-left: 10px;
+	margin-top: 20px;
+	min-width: 16%;
+	padding: 10px;
+}
+
+.top_item .text_container {
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+.text_container .name {
+	font-weight: 600;
+}
+
+.top_section .right {
+	background-color: green;
+	width: 100px;
+	padding: 20px;
+}
+
+
+.middle_section {
+	padding: 20px;
+	border-radius: 20px;
+}
+
+.middle_section .title {
+	font-size: 15px;
+}
+
+.folder_container {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	gap: 10px;
+/*	padding: 15px;*/
+}
+
+.folder_item {
+	background-color: #fff;
+	padding: 5px;
+	border-radius: 10px;
+	margin-top: 15px;
+	width: 80%;
+	border: 1px solid #ddd;
+	display: flex;
+	align-items: center;
+}
+
+.folder_item .text_container {
+	font-size: 14px;
+}
+
+.text_container .name {
+	font-weight: 600;
+}
+
+.file_item {
+	background-color: #fff;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-top: 10px;
+	border: 1px solid #ddd;
+}
+
+.file_item .text_container {
+	padding: 5px 5px;
+}
+
+.file_item .text_container .name {
+	font-weight: 400;
+	font-size: 14px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 130px;
+}
+
+.document_list_container {
+	margin-top: -10px;
+	border-radius: 10px;
+	width: 89%;
+}
+
+.document_list_top {
+	padding: 10px 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.document_list_top .right {
+	display: flex;
+	align-items: center;
+}
+
+.right .right_item {
+	display: flex;
+	align-items: center;
+	margin-left: 10px;
+	font-size: 13px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.right_item .icon {
+	margin-left: 10px;
+}
+
+.document_list_top p {
+	font-size: 15px;
+	font-weight: 500;
+}
+
+.table {
+	width: 100%;
+	max-height: 400px;
+	overflow: auto;
+}
+
+.table tbody tr td {
+	font-size: 13px;
+}
+
+.sideBar {
+	background-color: #fff;
+	width: 25%;
+	font-size: 15px;
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	position: sticky;
+	top: 0%;
+	height: 100%;
+}
+
+.sideBar .current_active_class {
+	padding: 5px;
+	background-color: #fff;
+	border-radius: 10px;
+	height: 250px;
+	overflow: auto;
+}
+
+.sideBar .current_active_class #title {
+	font-size: 13px;
+	font-weight: 600;
+	position: sticky;
+	top: 0%;
+}
+
+.sideBar .current_active_class .monitorItem {
+	display: flex;
+	align-items: flex-start;
+	background-color: #fff;
+	border-radius: 5px;
+	margin-top: 10px;
+	padding: 5px;
+	border-top: 1px solid #eee;
+}
+
+.sideBar .current_active_class .monitorItem .dot_container {
+	border: 1px solid #000;
+	border-radius: 20px;
+	margin-right: 5px;
+	width: 10px;
+	height: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.sideBar .current_active_class .monitorItem p {
+	font-size: 13px;
+}
+
+#time_left {
+	font-size: 13px;
+	font-weight: 500;
+}
+
+.curriculum_container {
+	margin-top: 20px;
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 15px;
+}
+
+.curriculum_container #title {
+	font-weight: 600;
+	font-size: 13px;
+}
+
+.curriculum_container .curriculum_item {
+	background-color: #fff;
+	border-radius: 10px;
+	font-size: 13px;
+	padding: 10px;
+}
+
+.curriculum_container .curriculum_item .view_button {
+	background-color: #eee;
+	border-radius: 10px;
+	font-size: 14px;
+	padding: 5px;
+	margin-top: 10px;
+	color: #fff;
+}
+

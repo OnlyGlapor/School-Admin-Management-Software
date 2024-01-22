@@ -1,0 +1,329 @@
+.container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.main {
+	width: 70%;
+	padding: 20px;
+	overflow: auto;
+}
+
+.main h2 {
+	margin-bottom: 20px;
+}
+.top_section {
+	display: flex;
+	align-items: center !important;
+	justify-content: space-between;
+/*	padding: 20px;*/
+}
+
+.top_section .top_item {
+	display: flex;
+	align-items: center;
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 10px;
+	border: 1px solid #ddd;
+	margin-left: 10px;
+}
+
+.top_section .top_item .top_icon {
+	border: 1px solid #eee;
+	border-radius: 20px;
+	display: flex;
+	padding: 5px;
+	font-size: 20px;
+}
+
+.top_section .top_item .top_text_container {
+	margin-left: 15px;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.top_section .top_item .top_text_container #numbers {
+	font-size: 13px;
+	font-weight: 600;
+	margin-top: 10px;
+}
+
+.middle_section {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.middle_section .teacher_activities_chart {
+	width: 65%;
+	height: 250px;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 20px;
+	border: 1px solid #ddd;
+}
+
+.middle_section .teacher_activities_chart p {
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.middle_section .teacher_activities_chart .activity_main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 80%;
+}
+
+.middle_section .teacher_activities_chart .progressBar_container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 140px;
+	height: 150px;
+}
+
+.middle_section .teacher_activities_chart .progressBar_container p {
+	font-size: 14px;
+}
+
+.middle_section .teacher_list {
+	width: 35%;
+	height: 250px;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 20px;
+	margin-left: 10px;
+	border: 1px solid #ddd;
+}
+
+.middle_section .teacher_list #title {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.middle_section .teacher_list .list_container {
+	margin-top: 10px;
+	height: 270px;
+	overflow: auto;
+}
+
+.middle_section .teacher_list .list_container ul li {
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	justify-content: space-between;
+	border-top:1px solid #eee;
+	margin-top: 5px;
+	cursor: pointer;
+	padding: 0px 10px ;
+}
+
+.middle_section .teacher_list .list_container ul li:hover {
+	background-color: rgba(225, 225, 225, 0);
+}
+.middle_section .teacher_list .list_container ul li .name {
+	font-weight: 500;
+}
+
+.middle_section .teacher_list .list_container ul li .subject {
+	font-size: 13px;
+}
+
+.teacher_list_container {
+	background-color: #fff;
+	
+}
+
+.teacher_list_top {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 10px 0px;
+}
+
+.teacher_list_top .right {
+	display: flex;
+	align-items: center;
+}
+
+.right .right_item {
+	display: flex;
+	align-items: center;
+	margin: 0px 10px;
+	cursor: pointer;
+	padding: 0px 2px;
+}
+
+.right .right_item p {
+	font-size: 13px;
+}
+
+.right .right_item .icon {
+	margin-left: 5px;
+}
+
+.right .right_item:hover {
+	background-color: rgba(225, 225, 225, 0.2);
+	border-radius: 5px;
+}
+
+.teacher_list_top .edit_button {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.teacher_list_top .edit_button p {
+	font-size: 13px;
+	font-weight: 500;
+	margin-right: 2px;
+}
+
+.teacher_list_top .edit_button:hover {
+	text-decoration: underline;
+}
+
+.teacher_list_top #title {
+	margin-left: 15px;
+	font-weight: 600;
+
+}
+
+.teacher_list_container {
+	border: 1px solid #ddd;
+	margin-top: 5px;
+	border-radius: 10px;
+}
+
+.teacher_list_top {
+	padding: 5px 20px;
+}
+.teacher_list_container p {
+	font-size: 15px;
+	font-weight: 500;
+}
+
+.teacher_list_container .table {
+	width: 100%;
+	height: 400px;
+	overflow: auto;
+/*	padding: 10px;*/
+	border-radius: 10px;
+}
+
+.teacher_list_container table {
+	width: 1200px;
+}
+
+.teacher_list_container table thead tr th {
+	font-size: 13px;
+}
+
+.teacher_list_container table tbody tr td {
+	font-size: 13px;
+}
+
+.teacher_list_container table tbody tr td .photo {
+	width: 32px;
+	height: 32px;
+	border-radius: 50px;
+	background-color: #eee;
+}
+
+.teacher_list_container table tbody #homeAddress {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 130px;
+}
+
+.sideBar {
+	background-color: #fff;
+	width: 25%;
+	font-size: 15px;
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	position: sticky;
+	top: 0%;
+	height: 100%;
+}
+
+.sideBar .current_active_class {
+	padding: 5px;
+	background-color: #fff;
+	border-radius: 10px;
+	height: 250px;
+	overflow: auto;
+}
+
+.sideBar .current_active_class #title {
+	font-size: 13px;
+	font-weight: 600;
+	position: sticky;
+	top: 0%;
+}
+
+.sideBar .current_active_class .monitorItem {
+	display: flex;
+	align-items: flex-start;
+	background-color: #fff;
+	border-radius: 5px;
+	margin-top: 10px;
+	padding: 5px;
+	border-top: 1px solid #eee;
+}
+
+.sideBar .current_active_class .monitorItem .dot_container {
+	border: 1px solid #000;
+	border-radius: 20px;
+	margin-right: 5px;
+	width: 10px;
+	height: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.sideBar .current_active_class .monitorItem p {
+	font-size: 13px;
+}
+
+#time_left {
+	font-size: 13px;
+	font-weight: 500;
+}
+
+.curriculum_container {
+	margin-top: 20px;
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 15px;
+}
+
+.curriculum_container #title {
+	font-weight: 600;
+	font-size: 13px;
+}
+
+.curriculum_container .curriculum_item {
+	background-color: #fff;
+	border-radius: 10px;
+	font-size: 13px;
+	padding: 10px;
+}
+
+.curriculum_container .curriculum_item .view_button {
+	background-color: #eee;
+	border-radius: 10px;
+	font-size: 14px;
+	padding: 5px;
+	margin-top: 10px;
+	color: #fff;
+}
+

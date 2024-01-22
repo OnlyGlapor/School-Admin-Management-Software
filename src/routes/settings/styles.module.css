@@ -1,0 +1,41 @@
+.container {
+	width: 100%;
+	height: 100%;
+/*	padding: 5px 20px;*/
+}
+
+.settingsTop p{
+	font-size: 20px;
+	font-weight: 500;
+	padding-top: 20px;
+}
+
+.main {
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	background-color: green;
+/*	margin-top: 20px;*/
+
+}
+
+.navLinks {
+	width: 17%;
+}
+
+.navLinks ul li {
+	list-style: none;
+	padding: 10px;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.navLinks ul li:hover {
+	background-color: #eee;
+}
+
+.content_container {
+	flex: 1;
+	background-color: green;
+	height: 200px;
+}

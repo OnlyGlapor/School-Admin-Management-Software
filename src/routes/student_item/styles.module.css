@@ -1,0 +1,198 @@
+.container {
+	padding: 20px;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header .left_side {
+	display: flex;
+	align-items: center;
+}
+
+.header .left_side #backButton {
+	padding: 5px;
+	display: flex;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.header .left_side #backButton:hover {
+	background-color: #eee;
+}
+
+.header .left_side_text {
+	margin-left: 10px;
+	font-weight: 500;
+	font-size: 14px;
+}
+
+.header .editButton {
+	background-color: #eee;
+	border-radius: 5px;
+	display: flex;
+	padding: 5px;
+}
+
+.top_section {
+	margin-top: 20px;
+}
+
+.top {
+	display: flex;
+	align-items: center;
+}
+
+.smallInfoContainer {
+	margin-left: 20px;
+}
+
+.smallInfoContainer .smallInfo {
+	display: flex;
+	align-items: center;
+}
+
+.smallInfoContainer .smallInfo p {
+	font-size: 14px;
+}
+
+.top_section .tabContainer ul {
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.top_section .tabContainer ul li {
+  list-style: none;
+  padding: 5px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-right: 10px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.50s ease, padding 0.50s ease;
+}
+
+
+.top_section .tabContainer ul li p {
+	margin-left: 5px;
+}
+
+.active {
+	background-color: green !important;
+	color: #fff;
+}
+
+.main {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/*.main .mainCover {
+	display: flex;
+	flex-wrap: wrap;
+	border: 1px solid #eee;
+	border-radius: 10px;
+	margin-top: 20px;
+	width: 80%;
+	box-shadow: #eee 0px 0px 5px 5px;
+}*/
+
+.main .main_item {
+	font-size: 14px;
+	margin: 30px;
+}
+
+.main .main_item #main_item_title {
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+
+.main .main_item #main_item_text {
+/*	margin-top: 10px;*/
+}
+
+.academicsContainer {
+	width: 100%;
+	margin-top: 20px;
+	padding: 20px;
+}
+
+.academics_main {
+	display: flex;
+	align-items: ;
+}
+
+.academic_item {
+	background-color: #eee;
+/*	width: 50%;*/
+	margin-right: 20px;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.academic_item p {
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.scheduleTable {
+	border-collapse: collapse;
+	width: '70%';
+}
+
+.scheduleTable th,
+.scheduleTable td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #ddd;
+	line-height: 1;
+	font-size: 13px;
+}
+
+.gradeSheetContainer {
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+
+.gradeSheet .gradeTable {
+	margin-top: 20px;
+}
+
+.gradeSheet h2 {
+	font-size: 14px;
+}
+
+.gradeSheet .top {
+	justify-content: space-between;
+}
+
+.gradeSheet .top .right {
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+}
+
+.gradeSheet .top .right .right_item {
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	padding: 0px 10px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.gradeSheet .top .right .icon {
+	margin-left: 10px;
+}
+
+.gradeSheet .top .right .right_item:hover {
+	background-color: #eee;
+}

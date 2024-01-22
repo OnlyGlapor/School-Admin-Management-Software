@@ -1,0 +1,19 @@
+.react-calendar {
+  width: 100%;
+  max-width: 400px; /* Adjust the width as needed */
+  border: none;
+}
+
+.react-calendar__tile--active {
+  background-color: #3B82F6;
+  color: white !important; 
+}
+
+.react-calendar__tile--now {
+  background-color: #3B82F6;
+  color: white !important;
+}
+
+.react-calendar__tile {
+  color: black;
+}
